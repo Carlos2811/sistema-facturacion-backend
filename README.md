@@ -2,7 +2,6 @@
 
 `/backend/README.md`
 
-```markdown
 # ⚙️ Sistema de Facturación - Backend (ASP.NET Core Web API)
 
 Este es el **backend** de la aplicación de facturación, desarrollado en **ASP.NET Core Web API (.NET 7/8)** con SQL Server.  
@@ -23,21 +22,14 @@ Expone endpoints REST para gestionar **facturas, clientes y productos**.
 ## 📦 Instalación y ejecución
 
 1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/sistema-facturacion.git
+   git clone https://github.com/Carlos2811/sistema-facturacion-backend/pull/new/master
    cd sistema-facturacion/backend
 Restaurar dependencias:
-
-bash
-Copiar código
 dotnet restore
 Ejecutar el servidor:
-
-bash
-Copiar código
 dotnet run
 Acceder a Swagger:
-https://localhost:7123/swagger
+https://localhost:44342/swagger/index.html
 
 🗄️ Base de datos
 Crear la base de datos DevLab en SQL Server.
@@ -52,8 +44,6 @@ Ejecutar los scripts SQL incluidos en /db:
 
 Ajustar la cadena de conexión en appsettings.json:
 
-json
-Copiar código
 "ConnectionStrings": {
   "DefaultConnection": "Server=andres;Database=DevLab;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
 }
